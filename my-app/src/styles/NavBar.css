@@ -1,38 +1,60 @@
-
-.NavBarMain{
-    width: 100%;
-    background-color: #3f3a36;
-    height: 65px;
-    position: absolute;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+.NavBarMain {
+  width: 100%;
+  background-color: #3f3a36;
+  height: 65px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
-.NavBarText{
-    font-family: 'Roboto', sans-serif;
-    font-style: 500;
-    margin-top: 24px;
-    font-size: 17px;
-    color: #F1F2F2;
+.NavBarText {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-style: 500;
+  margin-top: 24px;
+  font-size: 16px;
+  /*   padding-right: 50px;
+  padding-left: 50px; */
+  color: #f1f2f2;
 }
 
-.NavBarCenter{
-    display: flex;
-    
-    justify-content: space-around;
-    justify-items: center;
+.NavBarLogo {
+  margin-left: 15px;
+  margin-top: 12px;
+  margin-right: 5%;
 }
 
-.NavBarLoggInn{
-    top:0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 160px;
-    font-family: 'Roboto', sans-serif;
-    font-style: 500;
-    font-size: 18px;
-    height: 65px;
-    background-color: #F1F2F2;
-    color: #3F3A36;
+.NavBarSun {
+  display: flex;
+  margin-top: 18px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.NavBarCenter {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.midt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.NavBarLoggInn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  font-family: "Roboto", sans-serif;
+  font-style: 500;
+  font-size: 18px;
+  height: 65px;
+  background-color: #f1f2f2;
+  color: #3f3a36;
 }

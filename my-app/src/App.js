@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Hjemmeside from "./screens/Hjemmeside";
@@ -9,7 +9,6 @@ import UseCase from "./screens/UseCase";
 import Produkt from "./screens/Produkt";
 
 function App() {
-
   return (
     <Router>
       <div className="content">

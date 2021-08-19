@@ -1,18 +1,37 @@
 import { Link, NavLink } from "react-router-dom";
 import "../styles/NavBar.css";
 
-
 function NavBar() {
   return (
-    <div className="NavBarMain">
+    <div>
+      <div className="NavBarMain">
         <div className="NavBarCenter">
-       <label className="NavBarText"> PRODUKT</label>
-       <label className="NavBarText">USE CASE</label>
-       <label className="NavBarText"> PRIS</label>
-       <label className="NavBarText"> OM OSS</label>
-       <div className="NavBarLoggInn"><label>LOGG INN</label></div>
-       </div>
-       
+          <img
+            className="NavBarLogo"
+            src="/image001.png"
+            height="42px"
+            alt=""
+          />
+          <div className="midt">
+            <label className="NavBarText"> PRODUKT</label>
+            <label className="NavBarText">USE CASE</label>
+            <img
+              className="NavBarSun"
+              src="/image002.png"
+              height="30px"
+              alt=""
+            />
+            <label className="NavBarText"> PRIS</label>
+            <label className="NavBarText"> OM OSS</label>
+          </div>
+          <div className="TopRight">
+            <div className="NavBarLoggInn">
+              <label>LOGG INN</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bugFrame"></div>
     </div>
   );
 }
