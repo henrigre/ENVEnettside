@@ -1,11 +1,18 @@
 import { Link, NavLink } from "react-router-dom";
-
+import "../styles/NavBar.css";
 
 
 function NavBar() {
   return (
-    <div>
-      
+    <div className="NavBarMain">
+        <div className="NavBarCenter">
+       <label className="NavBarText"> PRODUKT</label>
+       <label className="NavBarText">USE CASE</label>
+       <label className="NavBarText"> PRIS</label>
+       <label className="NavBarText"> OM OSS</label>
+       <div className="NavBarLoggInn"><label>LOGG INN</label></div>
+       </div>
+       
     </div>
   );
 }

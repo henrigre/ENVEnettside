@@ -5,7 +5,7 @@ function Hjemmeside(){
     return(
     <div>
       <div className="modalGroup-content">
-        {Navbar()}
+        {NavBar()}
       </div>
       </div>
     )
