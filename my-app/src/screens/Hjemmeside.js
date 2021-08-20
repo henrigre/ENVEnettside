@@ -13,6 +13,7 @@ function Hjemmeside() {
         alt=""
       />
       <div className="boxInfo">
+        <img className="enveBox" src="/envelight.png" width="26%" alt="" />
         <button className="boxInfoText">
           <label className="text">
             Tilretteleggingsarbeid for investeringer i næringseiendom er sterkt
