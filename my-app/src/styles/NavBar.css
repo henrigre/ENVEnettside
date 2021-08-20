@@ -2,8 +2,8 @@
   width: 100%;
   background-color: #3f3a36;
   height: 65px;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  top: 0px;
   display: flex;
   flex-direction: column;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
@@ -23,7 +23,7 @@
 .NavBarLogo {
   margin-left: 15px;
   margin-top: 12px;
-  margin-right: 5%;
+  margin-right: 2%;
 }
 
 .NavBarSun {
