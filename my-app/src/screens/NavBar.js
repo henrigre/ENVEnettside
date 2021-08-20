@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import "../styles/NavBar.css";
+import { BiMoon } from "react-icons/bi";
 
 function NavBar() {
   return (
