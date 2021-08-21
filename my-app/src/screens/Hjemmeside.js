@@ -6,12 +6,7 @@ function Hjemmeside() {
   return (
     <div>
       <nav className="navBar">{NavBar()}</nav>
-      <img
-        className="shadowPhoto"
-        src="/animertStartbilde.jpg"
-        width="100%"
-        alt=""
-      />
+      <img className="shadowPhoto" src="/infoBoxB.jpg" width="100%" alt="" />
       <div className="boxInfo">
         <img className="enveBox" src="/envelight.png" width="26%" alt="" />
         <button className="boxInfoText">
@@ -31,6 +26,51 @@ function Hjemmeside() {
             digitaliseringen i en av verdens mest største industrier.
           </label>
         </button>
+      </div>
+      <div>{/* <img src="/infoBoxB.jpg" width="100%" alt="" /> */}</div>
+      <div className="imageBox">
+        <div
+          style={{
+            backgroundImage: `url("/infoBoxB.jpg")`,
+          }}
+          className="imageBox1"
+        >
+          <div className="heleBox">
+            <div className="heleLitenBox">
+              <button className="firstLitenBox">
+                <label className="litenBoxText">LEIETAKEROVERSIKT</label>
+              </button>
+              <button className="firstLitenBox">
+                <label className="litenBoxText">DUE DILLIGENCE-RPPORT</label>
+              </button>
+              <button className="firstLitenBox">
+                <label className="litenBoxText">LØPENDE VERDIVURDERING</label>
+              </button>
+            </div>
+            <div className="heleLitenBox">
+              <button className="firstLitenBox">
+                <label className="litenBoxText">SKYBASERT DOKUMENTARKIV</label>
+              </button>
+              <button className="firstLitenBox">
+                <label className="litenBoxText">AKSJONÆRBOK</label>
+              </button>
+              <button className="firstLitenBox">
+                <label className="litenBoxText">RAPPORTGENERERING</label>
+              </button>
+            </div>
+            <div className="heleLitenBox">
+              <button className="firstLitenBox">
+                <label className="litenBoxText">KAPITALSTRUKTUR</label>
+              </button>
+              <button className="firstLitenBox">
+                <label className="litenBoxText">SIKKER DATAROM</label>
+              </button>
+              <button className="firstLitenBox">
+                <label className="litenBoxText">INTERESSENTOVERSIKT</label>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
