@@ -27,7 +27,6 @@ function Hjemmeside() {
           </label>
         </button>
       </div>
-      <div>{/* <img src="/infoBoxB.jpg" width="100%" alt="" /> */}</div>
       <div className="imageBox">
         <div
           style={{
@@ -101,6 +100,26 @@ function Hjemmeside() {
             pharetra.
           </label>
         </button>
+      </div>
+      <div className="imageBox">
+        <div
+          style={{
+            backgroundImage: `url("/bunnbildedark.jpg")`,
+          }}
+          className="imageBox2"
+        >
+          <div className="bunnLine"></div>
+          <div className="bunnBox">
+            <label className="text">+47 12 345 67 Norge</label>
+            <label className="text">konktakt@enve.no</label>
+            <label className="text">
+              Sem Sælands vei 1 7034 Trondheim Norge
+            </label>
+          </div>
+          <div>
+            <label className="text"></label>
+          </div>
+        </div>
       </div>
     </div>
   );
