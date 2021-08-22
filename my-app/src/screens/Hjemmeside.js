@@ -1,11 +1,17 @@
 import NavBar from "../screens/NavBar";
+import React, { useState } from "react";
 import "../styles/Hjemmeside.css";
 import { fadeIn } from "react-animations";
+import { FaFacebook, FaLinkedin } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
+import { IoIosGlobe } from "react-icons/io";
 
 function Hjemmeside() {
+  const darkTheme = true;
+
   return (
     <div>
-      <nav className="navBar">{NavBar()}</nav>
+      <nav className="navBar">{NavBar(darkTheme)}</nav>
       <img className="shadowPhoto" src="/infoBoxB.jpg" width="100%" alt="" />
       <div className="boxInfo">
         <img className="enveBox" src="/envelight.png" width="26%" alt="" />
@@ -104,20 +110,55 @@ function Hjemmeside() {
       <div className="imageBox">
         <div
           style={{
-            backgroundImage: `url("/bunnbildedark.jpg")`,
+            backgroundImage: `url("/bunnBildeDark.jpg")`,
           }}
           className="imageBox2"
         >
           <div className="bunnLine"></div>
-          <div className="bunnBox">
-            <label className="text">+47 12 345 67 Norge</label>
-            <label className="text">konktakt@enve.no</label>
-            <label className="text">
-              Sem Sælands vei 1 7034 Trondheim Norge
-            </label>
-          </div>
-          <div>
-            <label className="text"></label>
+          <div className="bunnFlex">
+            <div className="bunnBox">
+              <label className="bunnText">+47 12 345 67</label>
+              <label className="bunnText">konktakt@enve.no</label>
+              <label className="bunnTextAdresse">Sem Sælands vei 1</label>
+              <label className="bunnTextAdresse">7034 Trondheim</label>
+              <label className="bunnTextAdresse">Norge</label>
+            </div>
+            <div className="bunnBox">
+              <div className="bunnKontakt">
+                <div className="bunnKontaktTextBox">
+                  <FaLinkedin
+                    className="iconMarginTop"
+                    color="white"
+                    size="30"
+                  />{" "}
+                  <label className="bunnKontaktText ">linkedin/enve</label>
+                </div>
+                <div className="bunnKontaktTextBox">
+                  <FaFacebook
+                    className="iconMarginTop"
+                    color="white"
+                    size="30"
+                  />{" "}
+                  <label className="bunnKontaktText "> facebook/enve </label>
+                </div>
+                <div className="bunnKontaktTextBox">
+                  <AiFillInstagram
+                    className="iconMarginTop iconMarginLeft "
+                    color="white"
+                    size="35"
+                  />{" "}
+                  <label className="bunnKontaktText ">instagram/enve</label>
+                </div>
+                <div className="bunnKontaktTextBox">
+                  <IoIosGlobe
+                    className="iconMarginTop iconMarginLeft "
+                    color="white"
+                    size="35"
+                  />{" "}
+                  <label className="bunnKontaktText "> enve.no</label>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -106,7 +106,9 @@
 }
 .imageBox2 {
   width: 100%;
+  background-blend-mode: overlay;
   background-size: cover;
+
 }
 
 .førsteInfoBox {
@@ -151,15 +153,85 @@
 }
 
 .bunnLine {
-  margin-top: 100px;
-  border-bottom: 2px solid;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid;
+  margin-left: 20%;
+  margin-right: 20%;
   color: white;
 }
 
 .bunnBox {
-  margin-top: 120px;
-  width: 400px;
-  height: 400px;
+  width: 20%;
+  height: 20%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 12%;
+  margin-right: 10%;
+}
+
+.bunnText {
+  font-family: "Nunito", sans-serif;
+  font-style: 600;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 18px;
+  line-height: 35px;
+  color: #f1f2f2;
+  margin: 15px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.bunnTextAdresse {
+  font-family: "Nunito", sans-serif;
+  font-style: 600;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 18px;
+  line-height: 35px;
+  color: #f1f2f2;
+  margin-left: 15px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.bunnFlex {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.iconMarginLeft {
+  margin-left: -3px;
+}
+
+.iconMarginTop {
+  margin-top: 17px;
+}
+
+.bunnKontakt {
+  display: flex;
+  flex-direction: column;
+}
+
+.bunnKontaktTextBox {
+  display: flex;
+  flex-direction: row;
+}
+.bunnKontaktText {
+  font-family: "Nunito", sans-serif;
+  font-style: 600;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 18px;
+  line-height: 35px;
+  color: #f1f2f2;
+  margin-top: 15px;
+  margin-left: 15px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
 }
