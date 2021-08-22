@@ -1,11 +1,12 @@
 import { Link, NavLink } from "react-router-dom";
 import "../styles/NavBar.css";
+import React, {useState} from "react";
 import { BiMoon } from "react-icons/bi";
 
-function NavBar(darkTheme) {
+function NavBar() {  
   return (
     <div>
-      {darkTheme ? (
+      {true ? (
         <div>
           <div className="NavBarMain">
             <div className="NavBarCenter">
@@ -23,7 +24,6 @@ function NavBar(darkTheme) {
                   src="/image002.png"
                   height="30px"
                   alt=""
-                  /*  onClick={setDarkTheme(!darkTheme)} */
                 />
                 <label className="NavBarText"> PRIS</label>
                 <label className="NavBarText"> OM OSS</label>

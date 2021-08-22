@@ -1,18 +1,53 @@
 import NavBar from "../screens/NavBar";
-import React, { useState } from "react";
 import "../styles/Hjemmeside.css";
-import { fadeIn } from "react-animations";
+import React, { useState } from "react";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { IoIosGlobe } from "react-icons/io";
+import Modal from "react-modal";
+import { Slide } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
 
 function Hjemmeside() {
-  const darkTheme = true;
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [riktigTekst, setRiktigTekst] = useState(0);
+
+  function showText(riktigTekst) {
+    switch (riktigTekst) {
+      case 0:
+        return "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, pulvinar magna massa elementum, ut. Placerat volutpat viverra suspendisse nibh proin integer. Nisi blandit molestie cras dignissim. Mattis pulvinar scelerisque adipiscing dictum volutpat elit leo. Nunc dictumst at ut adipiscing morbi quam. Tortor non non pharetra.";
+      case 1:
+        return "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, pulvinar magna massa elementum, ut. Placerat volutpat viverra suspendisse nibh proin integer. Nisi blandit molestie cras dignissim. Mattis pulvinar scelerisque adipiscing dictum volutpat elit leo. Nunc dictumst at ut adipiscing morbi quam. Tortor non non pharetra.";
+      default:
+        return "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, pulvinar magna massa elementum,";
+    }
+  }
 
   return (
     <div>
-      <nav className="navBar">{NavBar(darkTheme)}</nav>
-      <img className="shadowPhoto" src="/infoBoxB.jpg" width="100%" alt="" />
+      <nav className="navBar">{NavBar()}</nav>
+
+      <div className="slide-container">
+        <Slide>
+          <div className="each-slide">
+            <img
+              className="shadowPhoto"
+              src="/infoBoxB.jpg"
+              width="100%"
+              alt="first slide"
+            />
+          </div>
+          <div className="each-slide">
+            <img
+              className="shadowPhoto"
+              src="/Loginbakgrunn.jpg"
+              width="100%"
+              alt="second slide"
+            />
+          </div>
+        </Slide>
+      </div>
+
       <div className="boxInfo">
         <img className="enveBox" src="/envelight.png" width="26%" alt="" />
         <button className="boxInfoText">
@@ -42,35 +77,62 @@ function Hjemmeside() {
         >
           <div className="heleBox">
             <div className="heleLitenBox">
-              <button className="firstLitenBox">
+              <button
+                className="firstLitenBox"
+                onClick={() => setModalIsOpen(true)}
+              >
                 <label className="litenBoxText">LEIETAKEROVERSIKT</label>
               </button>
-              <button className="firstLitenBox">
+              <button
+                className="firstLitenBox"
+                onClick={() => setModalIsOpen(true)}
+              >
                 <label className="litenBoxText">DUE DILLIGENCE-REPORT</label>
               </button>
-              <button className="firstLitenBox">
+              <button
+                className="firstLitenBox"
+                onClick={() => setModalIsOpen(true)}
+              >
                 <label className="litenBoxText">LØPENDE VERDIVURDERING</label>
               </button>
             </div>
             <div className="heleLitenBox">
-              <button className="firstLitenBox">
+              <button
+                className="firstLitenBox"
+                onClick={() => setModalIsOpen(true)}
+              >
                 <label className="litenBoxText">SKYBASERT DOKUMENTARKIV</label>
               </button>
-              <button className="firstLitenBox">
+              <button
+                className="firstLitenBox"
+                onClick={() => setModalIsOpen(true)}
+              >
                 <label className="litenBoxText">AKSJONÆRBOK</label>
               </button>
-              <button className="firstLitenBox">
+              <button
+                className="firstLitenBox"
+                onClick={() => setModalIsOpen(true)}
+              >
                 <label className="litenBoxText">RAPPORTGENERERING</label>
               </button>
             </div>
             <div className="heleLitenBox">
-              <button className="firstLitenBox">
+              <button
+                className="firstLitenBox"
+                onClick={() => setModalIsOpen(true)}
+              >
                 <label className="litenBoxText">KAPITALSTRUKTUR</label>
               </button>
-              <button className="firstLitenBox">
+              <button
+                className="firstLitenBox"
+                onClick={() => setModalIsOpen(true)}
+              >
                 <label className="litenBoxText">SIKKER DATAROM</label>
               </button>
-              <button className="firstLitenBox">
+              <button
+                className="firstLitenBox"
+                onClick={() => setModalIsOpen(true)}
+              >
                 <label className="litenBoxText">INTERESSENTOVERSIKT</label>
               </button>
             </div>
@@ -130,7 +192,7 @@ function Hjemmeside() {
                     className="iconMarginTop"
                     color="white"
                     size="30"
-                  />{" "}
+                  />
                   <label className="bunnKontaktText ">linkedin/enve</label>
                 </div>
                 <div className="bunnKontaktTextBox">
@@ -138,7 +200,7 @@ function Hjemmeside() {
                     className="iconMarginTop"
                     color="white"
                     size="30"
-                  />{" "}
+                  />
                   <label className="bunnKontaktText "> facebook/enve </label>
                 </div>
                 <div className="bunnKontaktTextBox">
@@ -146,7 +208,7 @@ function Hjemmeside() {
                     className="iconMarginTop iconMarginLeft "
                     color="white"
                     size="35"
-                  />{" "}
+                  />
                   <label className="bunnKontaktText ">instagram/enve</label>
                 </div>
                 <div className="bunnKontaktTextBox">
@@ -154,13 +216,35 @@ function Hjemmeside() {
                     className="iconMarginTop iconMarginLeft "
                     color="white"
                     size="35"
-                  />{" "}
+                  />
                   <label className="bunnKontaktText "> enve.no</label>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div className="modalBackground">
+        {modalIsOpen ? (
+          <Modal isOpen={modalIsOpen} className="modalContent">
+            <div className="modalButton">
+              <button className="modalInfo">
+                <label className="modalOverskriftText">LEIETAKEROVERSIKT</label>
+                <label className="modalText">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Felis, pulvinar magna massa elementum, ut. Placerat volutpat
+                  viverra suspendisse nibh proin integer. Nisi blandit molestie
+                  cras dignissim. Mattis pulvinar scelerisque adipiscing dictum
+                  volutpat elit leo. Nunc dictumst at ut adipiscing morbi quam.
+                  Tortor non non pharetra.
+                </label>
+              </button>
+            </div>
+            <label onClick={() => setModalIsOpen(false)} className="modalLukk ">
+              lukk
+            </label>
+          </Modal>
+        ) : null}
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
+import React from "react";
 import Hjemmeside from "./screens/Hjemmeside";
 import LoggInn from "./screens/LoggInn";
 import OmOss from "./screens/OmOss";
