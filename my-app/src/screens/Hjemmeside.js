@@ -31,7 +31,7 @@ function Hjemmeside() {
       <div className="imageBox">
         <div
           style={{
-            backgroundImage: `url("/infoBoxB.jpg")`,
+            backgroundImage: `url("/midtbilde-light.jpg")`,
           }}
           className="imageBox1"
         >
@@ -41,7 +41,7 @@ function Hjemmeside() {
                 <label className="litenBoxText">LEIETAKEROVERSIKT</label>
               </button>
               <button className="firstLitenBox">
-                <label className="litenBoxText">DUE DILLIGENCE-RPPORT</label>
+                <label className="litenBoxText">DUE DILLIGENCE-REPORT</label>
               </button>
               <button className="firstLitenBox">
                 <label className="litenBoxText">LØPENDE VERDIVURDERING</label>
@@ -71,6 +71,36 @@ function Hjemmeside() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="førsteInfoBox">
+        <button className="førsteBoxInfoText">
+          <div className="marginTop">
+            <label className="overskriftText">FOR FORVALTER</label>
+            <div className="navbar-line"></div>
+          </div>
+          <label className="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis,
+            pulvinar magna massa elementum, ut. Placerat volutpat viverra
+            suspendisse nibh proin integer. Nisi blandit molestie cras
+            dignissim. Mattis pulvinar scelerisque adipiscing dictum volutpat
+            elit leo. Nunc dictumst at ut adipiscing morbi quam. Tortor non non
+            pharetra.
+          </label>
+        </button>
+        <button className="førsteBoxInfoText">
+          <div className="marginTop">
+            <label className="overskriftText">FOR INVESTOR</label>
+            <div className="navbar-line"></div>
+          </div>
+          <label className="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis,
+            pulvinar magna massa elementum, ut. Placerat volutpat viverra
+            suspendisse nibh proin integer. Nisi blandit molestie cras
+            dignissim. Mattis pulvinar scelerisque adipiscing dictum volutpat
+            elit leo. Nunc dictumst at ut adipiscing morbi quam. Tortor non non
+            pharetra.
+          </label>
+        </button>
       </div>
     </div>
   );
