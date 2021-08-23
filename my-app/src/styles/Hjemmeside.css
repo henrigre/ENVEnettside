@@ -22,6 +22,11 @@
   margin-top: 60px;
 }
 
+.enveBoxMobil {
+  margin-left: 35%;
+  margin-top: 25px;
+}
+
 .boxInfoText {
   width: 80%;
   height: 100%;
@@ -33,13 +38,24 @@
   margin-bottom: 60px;
 }
 
+.boxInfoTextMobil {
+  width: 90%;
+  height: 100%;
+  border-width: 2px;
+  background-color: #3f3a36;
+  border-color: #f1f2f2;
+  margin-top: 30px;
+  margin-left: 5%;
+  margin-bottom: 30px;
+}
+
 .text {
   font-family: "Nunito", sans-serif;
-  font-style: 600;
+  font-weight: 600;
   display: flex;
   flex-direction: column;
   text-align: left;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 35px;
   color: #f1f2f2;
   margin: 50px;
@@ -47,8 +63,43 @@
   word-spacing: 2px;
 }
 
+.textMobil {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f1f2f2;
+  margin: 20px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.textMobil2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 14px;
+  line-height: 23px;
+  color: #f1f2f2;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 8%;
+  margin-right: 8%;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
 .paragraf {
   color: #3f3a36;
+}
+
+.slideShow {
+  margin-top: 65px;
 }
 
 .firstLitenBox {
@@ -67,11 +118,38 @@
   margin-right: 2%;
 }
 
+.firstLitenBoxMobil {
+  background-color: #3f3a36;
+  border-width: 1px;
+  border-color: #3f3a36;
+  width: 70%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  margin-left: 15%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  margin-right: 5%;
+}
+
 .heleBox {
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 10%;
   margin-bottom: 10%;
+}
+
+.heleBoxMobil {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .heleLitenBox {
@@ -86,7 +164,7 @@
   display: flex;
   font-family: "Roboto", sans-serif;
   justify-content: center;
-  font-style: 500;
+  font-weight: 500;
   font-size: 16px;
   color: white;
 }
@@ -105,9 +183,11 @@
   background-size: cover;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
 }
+
 .imageBox2 {
   width: 100%;
-  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -121,29 +201,69 @@
   box-shadow: inset 0 0 10px #000000;
 }
 
+.førsteInfoBoxMobil {
+  background-color: #3f3a36;
+  width: 100%;
+  margin-top: -5px;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  box-shadow: inset 0 0 10px #000000;
+}
+
 .førsteBoxInfoText {
-  width: 80%;
-  height: 100%;
-  border-width: 2px;
+  width: 40%;
+  height: 60%;
   background-color: #3f3a36;
   border-width: 1px;
   border-color: #3f3a36;
   border-color: #f1f2f2;
   margin-top: 60px;
   margin-bottom: 60px;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 8%;
+}
+.førsteBoxInfoTextMobil {
+  width: 90%;
+  height: 60%;
+  background-color: #3f3a36;
+  border-width: 1px;
+  border-color: #3f3a36;
+  border-color: #f1f2f2;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 5%;
+}
+
+.førsteBoxInfoTextMargin {
+  margin-right: 8%;
+}
+
+.førsteBoxInfoTextMobilMargin {
+  margin-top: -5px;
 }
 
 .overskriftText {
   font-family: "Roboto", sans-serif;
-  font-style: 500;
-  font-size: 32px;
+  font-weight: 500;
+  font-size: 25px;
   margin-top: 100px;
   color: #f1f2f2;
-  margin: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 10px;
   letter-spacing: 5px;
   word-spacing: 5px;
+}
+
+.overskriftTextMobil {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 100px;
+  color: #f1f2f2;
+  margin: 40px;
+  letter-spacing: 3px;
+  word-spacing: 3px;
 }
 
 .navbar-line {
@@ -163,6 +283,15 @@
   color: white;
 }
 
+.bunnLineMobil {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: white;
+}
+
 .bunnBox {
   width: 20%;
   height: 20%;
@@ -172,9 +301,27 @@
   margin-right: 10%;
 }
 
+.bunnBoxMobil {
+  width: 50%;
+  height: 50%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.bunnBoxMobil1 {
+  width: 50%;
+  height: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .bunnText {
   font-family: "Nunito", sans-serif;
-  font-style: 600;
+  font-weight: 600;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -186,9 +333,23 @@
   word-spacing: 2px;
 }
 
+.bunnTextMobil {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 14px;
+  line-height: 25px;
+  color: #f1f2f2;
+  margin: 15px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
 .bunnTextAdresse {
   font-family: "Nunito", sans-serif;
-  font-style: 600;
+  font-weight: 600;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -198,6 +359,20 @@
   margin-left: 15px;
   letter-spacing: 2px;
   word-spacing: 2px;
+}
+
+.bunnTextAdresseMobil {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 14px;
+  line-height: 25px;
+  color: #f1f2f2;
+  margin-left: 15px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
 }
 
 .bunnFlex {
@@ -211,12 +386,14 @@
 }
 
 .iconMarginTop {
-  margin-top: 17px;
+  margin-top: 12px;
 }
 
 .bunnKontakt {
   display: flex;
   flex-direction: column;
+  justify-content: right;
+  justify-items: right;
 }
 
 .bunnKontaktTextBox {
@@ -226,7 +403,7 @@
 
 .bunnKontaktText {
   font-family: "Nunito", sans-serif;
-  font-style: 600;
+  font-weight: 600;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -239,9 +416,24 @@
   word-spacing: 2px;
 }
 
+.bunnKontaktTextMobil {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 15px;
+  line-height: 25px;
+  color: #f1f2f2;
+  margin-top: 10px;
+  margin-left: 15px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
 .modalText {
   font-family: "Nunito", sans-serif;
-  font-style: 600;
+  font-weight: 600;
   display: flex;
   justify-items: center;
   justify-content: center;
@@ -255,12 +447,38 @@
   word-spacing: 1px;
 }
 
+.modalTextMobil {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #f1f2f2;
+  letter-spacing: 1px;
+  line-height: 14px;
+  word-spacing: 1px;
+}
+
 .modalOverskriftText {
   font-family: "Roboto", sans-serif;
-  font-style: 500;
+  font-weight: 500;
   font-size: 17px;
   color: #f1f2f2;
   margin-top: 30px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.modalOverskriftTextMobil {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #f1f2f2;
+  margin-top: -15px;
   letter-spacing: 2px;
   word-spacing: 2px;
 }
@@ -302,9 +520,21 @@
   backdrop-filter: inherit;
 }
 
+.modalContentMobil {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 45%;
+  margin-top: 35%;
+  margin-left: 10%;
+  background-color: #3f3a36;
+}
+
 .modalLukk {
   font-family: "Nunito", sans-serif;
-  font-style: 600;
+  font-weight: 600;
   display: flex;
   justify-content: center;
   justify-items: center;
