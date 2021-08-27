@@ -287,7 +287,7 @@ function Hjemmeside() {
           <img
             className="shadowPhoto"
             src="/forside2.jpg"
-            width="100%"
+            width="10%"
             alt="second slide"
           />
           {/*  <div className="slideShow">
