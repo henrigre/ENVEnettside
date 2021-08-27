@@ -45,29 +45,10 @@ function Hjemmeside() {
             width="100%"
             alt="second slide"
           />
-          {/*           <div className="slideShow">
-            <Slide>
-              <div className="each-slide">
-                <img
-                  className="shadowPhoto"
-                  src="/forside1.jpg"
-                  width="100%"
-                  alt="first slide"
-                />
-              </div>
-              <div className="each-slide">
-                <img
-                  className="shadowPhoto"
-                  src="/forside2.jpg"
-                  width="100%"
-                  alt="second slide"
-                />
-              </div>
-            </Slide>
-          </div> */}
 
           <div className="boxInfo">
             <img className="enveBox" src="/envelight.png" width="26%" alt="" />
+
             <button className="boxInfoText">
               <label className="text">
                 Tilretteleggingsarbeid for investeringer i næringseiendom er
@@ -286,31 +267,10 @@ function Hjemmeside() {
           <nav className="navBar">{NavBarMobil()}</nav>
           <img
             className="shadowPhoto"
-            src="/forside2.jpg"
+            src="/mobilBackground1.jpg"
             width="100%"
             alt="second slide"
           />
-          {/*  <div className="slideShow">
-        <Slide>
-          <div className="each-slide">
-            <img
-              className="shadowPhoto"
-              src="/forside1.jpg"
-              width="100%"
-              alt="first slide"
-            />
-          </div>
-          <div className="each-slide">
-            <img
-              className="shadowPhoto"
-              src="/forside2.jpg"
-              width="100%"
-              alt="second slide"
-            />
-          </div>
-        </Slide>
-      </div> */}
-
           <div className="boxInfo">
             <img
               className="enveBoxMobil"
@@ -533,3 +493,26 @@ function Hjemmeside() {
 }
 
 export default Hjemmeside;
+
+{
+  /*           <div className="slideShow">
+            <Slide>
+              <div className="each-slide">
+                <img
+                  className="shadowPhoto"
+                  src="/forside1.jpg"
+                  width="100%"
+                  alt="first slide"
+                />
+              </div>
+              <div className="each-slide">
+                <img
+                  className="shadowPhoto"
+                  src="/forside2.jpg"
+                  width="100%"
+                  alt="second slide"
+                />
+              </div>
+            </Slide>
+          </div> */
+}

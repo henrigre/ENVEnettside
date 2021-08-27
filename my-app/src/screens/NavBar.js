@@ -1,21 +1,28 @@
 import { Link, NavLink } from "react-router-dom";
 import "../styles/NavBar.css";
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { BiMoon } from "react-icons/bi";
 
-function NavBar() {  
+function NavBar() {
   return (
     <div>
       {true ? (
         <div>
           <div className="NavBarMain">
             <div className="NavBarCenter">
-              <img
-                className="NavBarLogo"
-                src="/image001.png"
-                height="42px"
-                alt=""
-              />
+              <NavLink
+                exact
+                to={{
+                  pathname: "/",
+                }}
+              >
+                <img
+                  className="NavBarLogo"
+                  src="/image001.png"
+                  height="42px"
+                  alt=""
+                />
+              </NavLink>
               <div className="midt">
                 <label className="NavBarText"> PRODUKT</label>
                 <label className="NavBarText">USE CASE</label>
@@ -26,7 +33,14 @@ function NavBar() {
                   alt=""
                 />
                 <label className="NavBarText"> PRIS</label>
-                <label className="NavBarText"> OM OSS</label>
+                <NavLink
+                  exact
+                  to={{
+                    pathname: "/OmOss",
+                  }}
+                >
+                  <label className="NavBarText"> OM OSS</label>
+                </NavLink>
               </div>
               <div className="TopRight">
                 <div className="NavBarLoggInn">
