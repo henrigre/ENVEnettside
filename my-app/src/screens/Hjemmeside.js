@@ -315,8 +315,8 @@ function Hjemmeside() {
           <div className="boxInfo">
             <img
               className="enveBoxMobil"
-              src="/envelight.png"
-              width="30%"
+              src="/ENVEdarkmode.svg"
+              width="26%"
               alt=""
             />
             <button className="boxInfoTextMobil">
