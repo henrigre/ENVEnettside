@@ -47,7 +47,12 @@ function Hjemmeside() {
           />
 
           <div className="boxInfo">
-            <img className="enveBox" src="/envelight.png" width="26%" alt="" />
+            <img
+              className="enveBox"
+              src="/ENVEdarkmode.svg"
+              width="26%"
+              alt=""
+            />
 
             <button className="boxInfoText">
               <label className="text">
