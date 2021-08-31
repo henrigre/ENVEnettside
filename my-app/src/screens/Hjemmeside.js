@@ -39,13 +39,25 @@ function Hjemmeside() {
       {width > breakPoint ? (
         <div>
           <nav className="navBar">{NavBar()}</nav>
-          <img
-            className="shadowPhoto"
-            src="/forside2.jpg"
-            width="100%"
-            alt="second slide"
-          />
 
+          <Slide>
+            <div className="each-slide">
+              <img
+                className="shadowPhoto"
+                src="/BakgrunnHoved.jpg"
+                width="100%"
+                alt="second slide"
+              />
+            </div>
+            <div className="each-slide">
+              <img
+                className="shadowPhoto"
+                src="/Loginbakgrunn.jpg"
+                width="100%"
+                alt="second slide"
+              />
+            </div>
+          </Slide>
           <div className="boxInfo">
             <img
               className="enveBox"
