@@ -1,5 +1,6 @@
 .NavBarMainMobil {
   width: 100%;
+  z-index: 1000;
   background-color: #3f3a36;
   height: 45px;
   overflow: hidden;
