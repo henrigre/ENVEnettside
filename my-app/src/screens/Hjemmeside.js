@@ -51,20 +51,39 @@ function Hjemmeside() {
 
             <button className="boxInfoText">
               <label className="text">
-                Tilretteleggingsarbeid for investeringer i næringseiendom er
-                sterkt preget av manuelle prosesser og flaskehalser i
-                informasjonsflyt, sammen med tunge lokale mappestrukturer.
-                Domenekunnskap står sterkt og knytter opp kunnskap og risiko til
-                den enkelte tilrettelegger. Summen av dagens virksomhet er en
-                ekstremt ressurskrevende papirmølle, uten noen gode løsninger.
-                <span className="paragraf"> Hei </span> ENVE er en programvare
-                som inneholder de kritiske funksjonene som tilrettelegger har
-                behov for i sin arbeidshverdag. Med nødvendige integrasjoner mot
-                eksisterende systemer innen FDV klarer ENVE tilby en
-                one-stop-shop for forvaltningsprosessen av næringseiendom. På
-                denne måten vil vi fristille ressurser til mer verdiskapende
-                arbeid og bidra til digitaliseringen i en av verdens mest
-                største industrier.
+                <label className="textCenter">
+                  ENVE effektiviserer informasjonsflyten, og automatiserer
+                  finansiell- og operasjonell rapportering av næringseiendom.
+                </label>
+                <span className="paragraf"> Hei </span>
+                Tilrettelegging av investering i næringseiendom er sterkt preget
+                av manuelle prosesser og flaskehalser. I en av verdens eldste og
+                mest veletablerte bransjer skjer det nå et avgjørende skifte mot
+                digitalisering av de oppgaver som inngår i en meget
+                ressurskrevende papirmølle. Store excel-ark, en-til-en
+                distribusjon over mail og tunge mappestrukturer lokalt lagret er
+                utdatert, og ENVE er det verktøyet som trengs for å håndtere
+                kapitalkrevende investeringer.
+                <span className="paragraf"> Hei </span> ENVE samler den
+                nødvendige funksjonaliteten som i dag er spredd over et flertall
+                av forskjellige systemer inn i én eneste plattform som er
+                skreddersydd for akkurat tilrettelegger sin rolle. På denne
+                måten oppnås en helhetlig løsning som gir smidighet mellom de
+                forskjellige rollene i et et forvaltningsprosjekt, slik at
+                tilrettelegger fristilles til arbeid som faktisk skaper verdi.
+                <span className="paragraf"> Hei </span>
+                Ved å benytte ENVE vil man ikke bare spare verdifulle ressurser
+                - man vil også oppnå konsis- og eksepsjonell datakvalitet som er
+                med å løse en av de største utfordringene innen ESG-trender i
+                eiendomsinvesteringer. Vi ser det som en langsiktig visjon å
+                kunne bidra til miljøvennlige eiendomsinvesteringer gjennom
+                datakvalitet. Tilretteleggingsarbeid for investeringer i
+                næringseiendom er sterkt preget av manuelle prosesser og
+                flaskehalser i informasjonsflyt, sammen med tunge lokale
+                mappestrukturer. Domenekunnskap står sterkt og knytter opp
+                kunnskap og risiko til den enkelte tilrettelegger. Summen av
+                dagens virksomhet er en ekstremt ressurskrevende papirmølle,
+                uten noen gode løsninger.
               </label>
             </button>
           </div>
@@ -81,48 +100,29 @@ function Hjemmeside() {
                     className="firstLitenBox"
                     onClick={() => setModalIsOpen(true)}
                   >
+                    <label className="litenBoxText">DATAROM</label>
+                  </button>
+                  <button
+                    className="firstLitenBox"
+                    onClick={() => setModalIsOpen(true)}
+                  >
+                    <label className="litenBoxText">STYREPORTAL</label>
+                  </button>
+                  <button
+                    className="firstLitenBox"
+                    onClick={() => setModalIsOpen(true)}
+                  >
+                    <label className="litenBoxText">PORTEFØLJEOVERSIKT</label>
+                  </button>
+                </div>
+                <div className="heleLitenBox">
+                  <button
+                    className="firstLitenBox"
+                    onClick={() => setModalIsOpen(true)}
+                  >
                     <label className="litenBoxText">LEIETAKEROVERSIKT</label>
                   </button>
-                  <button
-                    className="firstLitenBox"
-                    onClick={() => setModalIsOpen(true)}
-                  >
-                    <label className="litenBoxText">
-                      DUE DILLIGENCE-REPORT
-                    </label>
-                  </button>
-                  <button
-                    className="firstLitenBox"
-                    onClick={() => setModalIsOpen(true)}
-                  >
-                    <label className="litenBoxText">
-                      LØPENDE VERDIVURDERING
-                    </label>
-                  </button>
-                </div>
-                <div className="heleLitenBox">
-                  <button
-                    className="firstLitenBox"
-                    onClick={() => setModalIsOpen(true)}
-                  >
-                    <label className="litenBoxText">
-                      SKYBASERT DOKUMENTARKIV
-                    </label>
-                  </button>
-                  <button
-                    className="firstLitenBox"
-                    onClick={() => setModalIsOpen(true)}
-                  >
-                    <label className="litenBoxText">AKSJONÆRBOK</label>
-                  </button>
-                  <button
-                    className="firstLitenBox"
-                    onClick={() => setModalIsOpen(true)}
-                  >
-                    <label className="litenBoxText">RAPPORTGENERERING</label>
-                  </button>
-                </div>
-                <div className="heleLitenBox">
+
                   <button
                     className="firstLitenBox"
                     onClick={() => setModalIsOpen(true)}
@@ -133,13 +133,47 @@ function Hjemmeside() {
                     className="firstLitenBox"
                     onClick={() => setModalIsOpen(true)}
                   >
-                    <label className="litenBoxText">SIKKER DATAROM</label>
+                    <label className="litenBoxText">INTERESSENTOVERSIKT</label>
+                  </button>
+                </div>
+                <div className="heleLitenBox">
+                  <button
+                    className="firstLitenBox"
+                    onClick={() => setModalIsOpen(true)}
+                  >
+                    <label className="litenBoxText">KONTAKTSTRØM</label>
                   </button>
                   <button
                     className="firstLitenBox"
                     onClick={() => setModalIsOpen(true)}
                   >
-                    <label className="litenBoxText">INTERESSENTOVERSIKT</label>
+                    <label className="litenBoxText">AKSJEEIERBOK</label>
+                  </button>
+                  <button
+                    className="firstLitenBox"
+                    onClick={() => setModalIsOpen(true)}
+                  >
+                    <label className="litenBoxText">E-SIGNERING</label>
+                  </button>
+                </div>
+                <div className="heleLitenBox">
+                  <button
+                    className="firstLitenBox"
+                    onClick={() => setModalIsOpen(true)}
+                  >
+                    <label className="litenBoxText">RAPPORTGENERERING</label>
+                  </button>
+                  <button
+                    className="firstLitenBox"
+                    onClick={() => setModalIsOpen(true)}
+                  >
+                    <label className="litenBoxText">UTBYTTEBEREGNINGER</label>
+                  </button>
+                  <button
+                    className="firstLitenBox"
+                    onClick={() => setModalIsOpen(true)}
+                  >
+                    <label className="litenBoxText">DUE DILIGENCE</label>
                   </button>
                 </div>
               </div>
@@ -148,16 +182,18 @@ function Hjemmeside() {
           <div className="førsteInfoBox">
             <button className="førsteBoxInfoText">
               <div className="marginTop">
-                <label className="overskriftText">FOR FORVALTER</label>
+                <label className="overskriftText">FOR TILRETTELEGGER</label>
                 <div className="navbar-line"></div>
               </div>
               <label className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis,
-                pulvinar magna massa elementum, ut. Placerat volutpat viverra
-                suspendisse nibh proin integer. Nisi blandit molestie cras
-                dignissim. Mattis pulvinar scelerisque adipiscing dictum
-                volutpat elit leo. Nunc dictumst at ut adipiscing morbi quam.
-                Tortor non non pharetra.
+                Én eneste plattform med det som trengs for å håndtere alt av
+                informasjonsflyt og rapportering. Det er du som tilrettelegger
+                som sitter med makten og bestemmer hvem som skal ha tilgang til
+                hva, til enhver tid. ALT av dokumentasjon - enten om det er på
+                et generelt nivå for eiendommen, eller om det er knyttet til et
+                spesifikt leieforhold - vil nå være få tastetrykk unna.
+                Smidigheten, oversikten og helheten vil kutte ned papirmøllen og
+                drastisk forenkle oppfølging av interessenter.
               </label>
             </button>
             <button className="førsteBoxInfoText førsteBoxInfoTextMargin">

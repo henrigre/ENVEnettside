@@ -13,10 +13,12 @@ function OmOss() {
       <nav className="navBar">{NavBar()}</nav>
 
       <div className="boxInfoOmOss">
-        <label className="textOmOss">
-          Teamet bak ENVE har utspring fra NTNU’s Entreprenørskole, og består i
-          dag av 7 personer.
-        </label>
+        <div className="omOssCenter">
+          <label className="textOmOss">
+            Teamet bak ENVE har utspring fra NTNU’s Entreprenørskole, og består
+            i dag av 7 personer.
+          </label>
+        </div>
         <div className="omOssRow">
           <div className="omOssCol">
             <button className="boxInfoTextOmOss">
