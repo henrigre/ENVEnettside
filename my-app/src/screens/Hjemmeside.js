@@ -52,7 +52,7 @@ function Hjemmeside() {
             <div className="each-slide">
               <img
                 className="shadowPhoto"
-                src="/Loginbakgrunn.jpg"
+                src="/BakgrunnSecond.jpg"
                 width="100%"
                 alt="second slide"
               />
