@@ -22,52 +22,41 @@ function OmOss() {
         <div className="omOssRow">
           <div className="omOssCol">
             <button className="boxInfoTextOmOss">
-              <label className="textOmOssBox">
-                Tilretteleggingsarbeid for investeringer i næringseiendom er
-                sterkt preget av manuelle prosesser og flaskehalser i
-                informasjonsflyt, sammen med tunge lokale mappestrukturer.
+              <label className="textOmOssNavn">Sander Haukdal Larsen</label>
+              <label className="textOmOssStilling">CEO</label>
+              <label className="textOmOssLinje">
+                MSc NTNUs Entreprenørskole
               </label>
             </button>
             <button className="boxInfoTextOmOss">
-              <label className="textOmOssBox">
-                Tilretteleggingsarbeid for investeringer i næringseiendom er
-                sterkt preget av manuelle prosesser og flaskehalser i
-                informasjonsflyt, sammen med tunge lokale mappestrukturer.
+              <label className="textOmOssNavn">Geir-Åsmund Haugland</label>
+              <label className="textOmOssStilling">
+                CCO & Produktansvarlig
               </label>
-            </button>
-            <button className="boxInfoTextOmOss">
-              <label className="textOmOssBox">
-                Tilretteleggingsarbeid for investeringer i næringseiendom er
-                sterkt preget av manuelle prosesser og flaskehalser i
-                informasjonsflyt, sammen med tunge lokale mappestrukturer.
+              <label className="textOmOssLinje">
+                MSc NTNUs Entreprenørskole
               </label>
             </button>
           </div>
           <div className="omOssCol">
             <button className="boxInfoTextOmOss">
-              <label className="textOmOssBox">
-                Tilretteleggingsarbeid for investeringer i næringseiendom er
-                sterkt preget av manuelle prosesser og flaskehalser i
-                informasjonsflyt, sammen med tunge lokale mappestrukturer.
+              <label className="textOmOssNavn">Tobias Eliassen</label>
+              <label className="textOmOssStilling">CDO</label>
+              <label className="textOmOssLinje">
+                MSc industriell design, NTNU
               </label>
             </button>
+
             <button className="boxInfoTextOmOss">
-              <label className="textOmOssBox">
-                Tilretteleggingsarbeid for investeringer i næringseiendom er
-                sterkt preget av manuelle prosesser og flaskehalser i
-                informasjonsflyt, sammen med tunge lokale mappestrukturer.
-              </label>
-            </button>
-            <button className="boxInfoTextOmOss">
-              <label className="textOmOssBox">
-                Tilretteleggingsarbeid for investeringer i næringseiendom er
-                sterkt preget av manuelle prosesser og flaskehalser i
-                informasjonsflyt, sammen med tunge lokale mappestrukturer.
+              <label className="textOmOssNavn">Adrian Paulsen Hafeld</label>
+              <label className="textOmOssStilling">CFO</label>
+              <label className="textOmOssLinje">
+                MSc Eiendomsutvikling og forvaltning, NTNU
               </label>
             </button>
           </div>
         </div>
-        <div className="imageBox">
+        {/*         <div className="imageBox">
           <div
             style={{
               backgroundImage: `url("/OmossR.jpg")`,
@@ -85,7 +74,7 @@ function OmOss() {
               </label>
             </button>
           </div>
-        </div>
+        </div> */}
         <div className="boxInfoOmOss">
           <label className="litenBoxTextOmOss">
             Partnere og samarbeidsaktører
@@ -101,11 +90,11 @@ function OmOss() {
             <div className="bunnLine"></div>
             <div className="bunnFlex">
               <div className="bunnBox">
-                <label className="bunnText">+47 12 345 67</label>
+                <label className="bunnText">+47 473 43 434</label>
                 <label className="bunnText">konktakt@enve.no</label>
-                <label className="bunnTextAdresse">Sem Sælands vei 1</label>
-                <label className="bunnTextAdresse">7034 Trondheim</label>
-                <label className="bunnTextAdresse">Norge</label>
+                <label className="bunnTextAdresse">
+                  Sem Sælands vei 1, Trondheim
+                </label>
               </div>
               <div className="bunnBox">
                 <div className="bunnKontakt">
@@ -125,14 +114,7 @@ function OmOss() {
                     />
                     <label className="bunnKontaktText "> facebook/enve </label>
                   </div>
-                  <div className="bunnKontaktTextBox">
-                    <AiFillInstagram
-                      className="iconMarginTop iconMarginLeft "
-                      color="white"
-                      size="35"
-                    />
-                    <label className="bunnKontaktText ">instagram/enve</label>
-                  </div>
+
                   <div className="bunnKontaktTextBox">
                     <IoIosGlobe
                       className="iconMarginTop iconMarginLeft "

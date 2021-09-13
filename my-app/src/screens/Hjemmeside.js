@@ -72,7 +72,9 @@ function Hjemmeside() {
                   ENVE effektiviserer informasjonsflyten, og automatiserer
                   finansiell- og operasjonell rapportering av næringseiendom.
                 </label>
-                <span className="paragraf"> Hei </span>
+              </label>
+              <label className="text">
+                <span className="paragraf"> </span>
                 Tilrettelegging av investering i næringseiendom er sterkt preget
                 av manuelle prosesser og flaskehalser. I en av verdens eldste og
                 mest veletablerte bransjer skjer det nå et avgjørende skifte mot
@@ -81,26 +83,26 @@ function Hjemmeside() {
                 distribusjon over mail og tunge mappestrukturer lokalt lagret er
                 utdatert, og ENVE er det verktøyet som trengs for å håndtere
                 kapitalkrevende investeringer.
-                <span className="paragraf"> Hei </span> ENVE samler den
-                nødvendige funksjonaliteten som i dag er spredd over et flertall
-                av forskjellige systemer inn i én eneste plattform som er
-                skreddersydd for akkurat tilrettelegger sin rolle. På denne
-                måten oppnås en helhetlig løsning som gir smidighet mellom de
-                forskjellige rollene i et et forvaltningsprosjekt, slik at
-                tilrettelegger fristilles til arbeid som faktisk skaper verdi.
-                <span className="paragraf"> Hei </span>
-                Ved å benytte ENVE vil man ikke bare spare verdifulle ressurser
-                - man vil også oppnå konsis- og eksepsjonell datakvalitet som er
-                med å løse en av de største utfordringene innen ESG-trender i
-                eiendomsinvesteringer. Vi ser det som en langsiktig visjon å
-                kunne bidra til miljøvennlige eiendomsinvesteringer gjennom
-                datakvalitet. Tilretteleggingsarbeid for investeringer i
-                næringseiendom er sterkt preget av manuelle prosesser og
-                flaskehalser i informasjonsflyt, sammen med tunge lokale
-                mappestrukturer. Domenekunnskap står sterkt og knytter opp
-                kunnskap og risiko til den enkelte tilrettelegger. Summen av
-                dagens virksomhet er en ekstremt ressurskrevende papirmølle,
-                uten noen gode løsninger.
+              </label>
+              <label className="text">
+                ENVE samler den nødvendige funksjonaliteten som i dag er spredd
+                over et flertall av forskjellige systemer inn i én eneste
+                plattform som er skreddersydd for akkurat tilrettelegger sin
+                rolle. På denne måten oppnås en helhetlig løsning som gir
+                smidighet mellom de forskjellige rollene i et et
+                forvaltningsprosjekt, slik at tilrettelegger fristilles til
+                arbeid som faktisk skaper verdi. Ved å benytte ENVE vil man ikke
+                bare spare verdifulle ressurser - man vil også oppnå konsis- og
+                eksepsjonell datakvalitet som er med å løse en av de største
+                utfordringene innen ESG-trender i eiendomsinvesteringer. Vi ser
+                det som en langsiktig visjon å kunne bidra til miljøvennlige
+                eiendomsinvesteringer gjennom datakvalitet.
+                Tilretteleggingsarbeid for investeringer i næringseiendom er
+                sterkt preget av manuelle prosesser og flaskehalser i
+                informasjonsflyt, sammen med tunge lokale mappestrukturer.
+                Domenekunnskap står sterkt og knytter opp kunnskap og risiko til
+                den enkelte tilrettelegger. Summen av dagens virksomhet er en
+                ekstremt ressurskrevende papirmølle, uten noen gode løsninger.
               </label>
             </button>
           </div>
@@ -137,7 +139,7 @@ function Hjemmeside() {
                     className="firstLitenBox"
                     onClick={() => setModalIsOpen(true)}
                   >
-                    <label className="litenBoxText">LEIETAKEROVERSIKT</label>
+                    <label className="litenBoxText">AKSJEEIERBOK</label>
                   </button>
 
                   <button
@@ -150,7 +152,7 @@ function Hjemmeside() {
                     className="firstLitenBox"
                     onClick={() => setModalIsOpen(true)}
                   >
-                    <label className="litenBoxText">INTERESSENTOVERSIKT</label>
+                    <label className="litenBoxText">DUE DILIGENCE</label>
                   </button>
                 </div>
                 <div className="heleLitenBox">
@@ -158,13 +160,13 @@ function Hjemmeside() {
                     className="firstLitenBox"
                     onClick={() => setModalIsOpen(true)}
                   >
-                    <label className="litenBoxText">KONTAKTSTRØM</label>
+                    <label className="litenBoxText">KONTAKTSTRØMANALYSE</label>
                   </button>
                   <button
                     className="firstLitenBox"
                     onClick={() => setModalIsOpen(true)}
                   >
-                    <label className="litenBoxText">AKSJEEIERBOK</label>
+                    <label className="litenBoxText">LEIETAKEROVERSIKT</label>
                   </button>
                   <button
                     className="firstLitenBox"
@@ -184,13 +186,13 @@ function Hjemmeside() {
                     className="firstLitenBox"
                     onClick={() => setModalIsOpen(true)}
                   >
-                    <label className="litenBoxText">UTBYTTEBEREGNINGER</label>
+                    <label className="litenBoxText">UTBYTTEBEREGNING</label>
                   </button>
                   <button
                     className="firstLitenBox"
                     onClick={() => setModalIsOpen(true)}
                   >
-                    <label className="litenBoxText">DUE DILIGENCE</label>
+                    <label className="litenBoxText">INTERESSENTOVERSIKT</label>
                   </button>
                 </div>
               </div>
@@ -198,34 +200,59 @@ function Hjemmeside() {
           </div>
           <div className="førsteInfoBox">
             <button className="førsteBoxInfoText">
-              <div className="marginTop">
-                <label className="overskriftText">FOR TILRETTELEGGER</label>
-                <div className="navbar-line"></div>
-              </div>
-              <label className="text">
-                Én eneste plattform med det som trengs for å håndtere alt av
-                informasjonsflyt og rapportering. Det er du som tilrettelegger
-                som sitter med makten og bestemmer hvem som skal ha tilgang til
-                hva, til enhver tid. ALT av dokumentasjon - enten om det er på
-                et generelt nivå for eiendommen, eller om det er knyttet til et
-                spesifikt leieforhold - vil nå være få tastetrykk unna.
-                Smidigheten, oversikten og helheten vil kutte ned papirmøllen og
-                drastisk forenkle oppfølging av interessenter.
+              <label className="overskriftText">FOR TILRETTELEGGER</label>
+              <div className="navbar-line"></div>
+              <label className="text1">
+                Én samlet plattform som tilgjengeliggjør de verktøyene du som
+                tilrettelegger trenger for å håndtere forvaltningsprosjekt fra a
+                til å.{" "}
+              </label>{" "}
+              <label className="text1">
+                Med rollen som tilrettelegger bestemmer du hvem som skal ha
+                tilgang til hva. Naviger enkelt mellom ulike prosjekt og opplev
+                verdien av å ha all eksisterende dokumentasjon knyttet til dine
+                investeringsprosjekt tilgjengeliggjort i det skybaserte
+                datarommet. Naviger enkelt mellom ulike prosjekter, ferdigstill
+                dokumentasjon og distribuer rapporter, regnskap og protokoller
+                til dine interessenter - enkelt, oversiktlig og sikkert.
               </label>
             </button>
-            <button className="førsteBoxInfoText førsteBoxInfoTextMargin">
-              <div className="marginTop">
+
+            <button className="førsteBoxInfoText">
+              <div className="top2">
                 <label className="overskriftText">FOR INVESTOR</label>
                 <div className="navbar-line"></div>
+                <label className="text1">
+                  Få totaloversikt over dine aktive og arkiverte investeringer
+                  med prosjektspesifikke KPI´er. Bla gjennom eksisterende
+                  rapporter, og se spørsmål og merkander fra andre interessenter
+                  direkte i dokumentasjonen. Still spørsmål til tilrettelegger i
+                  den innebygde Q & A-funksjonen og få oversikt over
+                  kapitalstrukturen i de ulike prosjektene. Motta all
+                  informasjon knyttet til dine investeringen direkte i
+                  plattformen, og få møteinnkallinger og oppdateringer
+                  tilgjengeliggjort i én samlet plattform.
+                </label>{" "}
+                <label className="text1">
+                  “Å holde seg løpende oppdatert på mine investeringer har aldri
+                  vært enklere”.
+                </label>
               </div>
-              <label className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis,
-                pulvinar magna massa elementum, ut. Placerat volutpat viverra
-                suspendisse nibh proin integer. Nisi blandit molestie cras
-                dignissim. Mattis pulvinar scelerisque adipiscing dictum
-                volutpat elit leo. Nunc dictumst at ut adipiscing morbi quam.
-                Tortor non non pharetra.
-              </label>
+            </button>
+            <button className="førsteBoxInfoText">
+              <div className="top1">
+                <label className="overskriftText">FOR STYREMEDLEM</label>
+                <div className="navbar-line"></div>
+                <label className="text1">
+                  Les deg opp på saksdokumenter og annen relevant informasjon om
+                  investeringsprosjektet. Få oversikt over når neste styremøte
+                  er, hvem som kommer og hvilke saker med tilhørende vedlegg som
+                  skal behandles. Strukturer arbeidsflyten med din egen
+                  gjøremålsliste og få varslinger om kommende møteaktivitet.
+                  Signer protokoller og andre dokumenter direkte i plattformen
+                  og opplev verdien av et digitalisert styreverv.
+                </label>
+              </div>
             </button>
           </div>
           <div className="imageBox">
@@ -238,11 +265,11 @@ function Hjemmeside() {
               <div className="bunnLine"></div>
               <div className="bunnFlex">
                 <div className="bunnBox">
-                  <label className="bunnText">+47 12 345 67</label>
+                  <label className="bunnText">+47 473 43 434</label>
                   <label className="bunnText">konktakt@enve.no</label>
-                  <label className="bunnTextAdresse">Sem Sælands vei 1</label>
-                  <label className="bunnTextAdresse">7034 Trondheim</label>
-                  <label className="bunnTextAdresse">Norge</label>
+                  <label className="bunnTextAdresse">
+                    Sem Sælands vei 1, Trondheim
+                  </label>
                 </div>
                 <div className="bunnBox">
                   <div className="bunnKontakt">
@@ -264,14 +291,6 @@ function Hjemmeside() {
                         {" "}
                         facebook/enve{" "}
                       </label>
-                    </div>
-                    <div className="bunnKontaktTextBox">
-                      <AiFillInstagram
-                        className="iconMarginTop iconMarginLeft "
-                        color="white"
-                        size="35"
-                      />
-                      <label className="bunnKontaktText ">instagram/enve</label>
                     </div>
                     <div className="bunnKontaktTextBox">
                       <IoIosGlobe

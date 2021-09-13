@@ -25,14 +25,14 @@ function NavBar() {
               </NavLink>
               <div className="midt">
                 <label className="NavBarText"> PRODUKT</label>
-                <label className="NavBarText">USE CASE</label>
+                {/* <label className="NavBarText">USE CASE</label> */}
                 <img
                   className="NavBarSun"
                   src="/image002.png"
                   height="30px"
                   alt=""
                 />
-                <label className="NavBarText"> PRIS</label>
+                {/* <label className="NavBarText"> PRIS</label> */}
                 <NavLink
                   exact
                   to={{
@@ -44,7 +44,7 @@ function NavBar() {
               </div>
               <div className="TopRight">
                 <div className="NavBarLoggInn">
-                  <label>LOGG INN</label>
+                  <label>KONTAKT</label>
                 </div>
               </div>
             </div>
