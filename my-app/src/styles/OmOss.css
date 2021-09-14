@@ -21,6 +21,17 @@
   margin-bottom: 50px;
 }
 
+.svgTop {
+  margin-top: -30px;
+}
+
+.samarbeidSvg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 120px;
+}
+
 .textOmOss {
   font-family: "Roboto";
   font-weight: 500;

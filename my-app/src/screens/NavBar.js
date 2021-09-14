@@ -15,6 +15,7 @@ function NavBar() {
                 to={{
                   pathname: "/",
                 }}
+                style={{ textDecoration: "none" }}
               >
                 <img
                   className="NavBarLogo"
@@ -38,14 +39,23 @@ function NavBar() {
                   to={{
                     pathname: "/OmOss",
                   }}
+                  style={{ textDecoration: "none" }}
                 >
                   <label className="NavBarText"> OM OSS</label>
                 </NavLink>
               </div>
               <div className="TopRight">
-                <div className="NavBarLoggInn">
-                  <label>KONTAKT</label>
-                </div>
+                <NavLink
+                  exact
+                  to={{
+                    pathname: "/LoggInn",
+                  }}
+                  style={{ textDecoration: "none" }}
+                >
+                  <div className="NavBarLoggInn">
+                    <label>KONTAKT</label>
+                  </div>
+                </NavLink>
               </div>
             </div>
           </div>
