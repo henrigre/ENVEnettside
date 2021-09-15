@@ -53,6 +53,9 @@ function LoggInn() {
             value={feedback}
             onChange={(e) => setFeedback(e.target.value)}
           ></textarea>
+          <button className="sendButton sendMargin">
+            <label className="sendText">Send</label>
+          </button>
         </div>
         <label className="kontaktSander">
           Har du spørsmål om vår løsningen eller hvordan du kan bli involvert?

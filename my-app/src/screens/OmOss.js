@@ -82,7 +82,7 @@ function OmOss() {
           <div className="samarbeidSvg">
             <img src="/NTNU.svg" width="20%" alt="" />
             <img className="svgTop" src="/Tlab.svg" width="15%" alt="" />
-            <img src="/Trønderenergi.svg" width="25%" alt="" />
+            <img src="/Trønderenergi-2.svg" width="25%" alt="" />
           </div>
         </div>
         <div className="imageBox">

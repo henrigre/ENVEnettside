@@ -25,7 +25,15 @@ function NavBar() {
                 />
               </NavLink>
               <div className="midt">
-                <label className="NavBarText"> PRODUKT</label>
+                <NavLink
+                  exact
+                  to={{
+                    pathname: "/Produkt",
+                  }}
+                  style={{ textDecoration: "none" }}
+                >
+                  <label className="NavBarText"> PRODUKT</label>
+                </NavLink>
                 {/* <label className="NavBarText">USE CASE</label> */}
                 {/*  <img
                   className="NavBarSun"
