@@ -1,7 +1,7 @@
 import NavBar from "../screens/NavBar";
 import NavBarMobil from "../screens/NavBarMobil";
 import "../styles/Hjemmeside.css";
-import React, { useState, useEffect } from "react";
+import React, { useLayoutEffect, useState, useEffect } from "react";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { IoIosGlobe } from "react-icons/io";
@@ -11,9 +11,7 @@ import "react-slideshow-image/dist/styles.css";
 
 function Hjemmeside() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [riktigTekst, setRiktigTekst] = useState(0);
-
-  const [width, setWidth] = React.useState(window.innerWidth);
+  const [width, setWidth] = useState(window.innerWidth);
   const breakPoint = 850;
 
   useEffect(() => {
@@ -22,17 +20,6 @@ function Hjemmeside() {
 
     return () => window.removeEventListener("resize", handleWindowResize);
   }, []);
-
-  function showText(riktigTekst) {
-    switch (riktigTekst) {
-      case 0:
-        return "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, pulvinar magna massa elementum, ut. Placerat volutpat viverra suspendisse nibh proin integer. Nisi blandit molestie cras dignissim. Mattis pulvinar scelerisque adipiscing dictum volutpat elit leo. Nunc dictumst at ut adipiscing morbi quam. Tortor non non pharetra.";
-      case 1:
-        return "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, pulvinar magna massa elementum, ut. Placerat volutpat viverra suspendisse nibh proin integer. Nisi blandit molestie cras dignissim. Mattis pulvinar scelerisque adipiscing dictum volutpat elit leo. Nunc dictumst at ut adipiscing morbi quam. Tortor non non pharetra.";
-      default:
-        return "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, pulvinar magna massa elementum,";
-    }
-  }
 
   return (
     <div>
