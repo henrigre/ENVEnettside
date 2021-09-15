@@ -465,6 +465,21 @@ function Hjemmeside() {
                 Tortor non non pharetra.
               </label>
             </button>
+            <button className="førsteBoxInfoTextMobil førsteBoxInfoTextMobilMargin">
+              <div className="marginTop">
+                <label className="overskriftTextMobil">FOR STYREMEDLEM</label>
+                <div className="navbar-line"></div>
+              </div>
+              <label className="textMobil2">
+                Les deg opp på saksdokumenter og annen relevant informasjon om
+                investeringsprosjektet. Få oversikt over når neste styremøte er,
+                hvem som kommer og hvilke saker med tilhørende vedlegg som skal
+                behandles. Strukturer arbeidsflyten med din egen gjøremålsliste
+                og få varslinger om kommende møteaktivitet. Signer protokoller
+                og andre dokumenter direkte i plattformen og opplev verdien av
+                et digitalisert styreverv.
+              </label>
+            </button>
           </div>
           <div className="imageBox">
             <div
@@ -476,13 +491,11 @@ function Hjemmeside() {
               <div className="bunnLineMobil"></div>
               <div className="bunnFlex">
                 <div className="bunnBoxMobil">
-                  <label className="bunnTextMobil">+47 12 345 67</label>
+                  <label className="bunnTextMobil">+47 473 43 434</label>
                   <label className="bunnTextMobil">konktakt@enve.no</label>
                   <label className="bunnTextAdresseMobil">
-                    Sem Sælands vei 1
+                    Sem Sælands vei 1, Trondheim
                   </label>
-                  <label className="bunnTextAdresseMobil">7034 Trondheim</label>
-                  <label className="bunnTextAdresseMobil">Norge</label>
                 </div>
                 <div className="bunnBoxMobil1">
                   <div className="bunnKontakt">
@@ -505,16 +518,6 @@ function Hjemmeside() {
                       <label className="bunnKontaktTextMobil ">
                         {" "}
                         facebook/enve{" "}
-                      </label>
-                    </div>
-                    <div className="bunnKontaktTextBox">
-                      <AiFillInstagram
-                        className="iconMarginTop iconMarginLeft "
-                        color="white"
-                        size="26"
-                      />
-                      <label className="bunnKontaktTextMobil ">
-                        instagram/enve
                       </label>
                     </div>
                     <div className="bunnKontaktTextBox">

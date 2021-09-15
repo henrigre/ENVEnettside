@@ -27,12 +27,13 @@ function NavBar() {
               <div className="midt">
                 <label className="NavBarText"> PRODUKT</label>
                 {/* <label className="NavBarText">USE CASE</label> */}
-                <img
+                {/*  <img
                   className="NavBarSun"
                   src="/image002.png"
                   height="30px"
                   alt=""
-                />
+                /> */}
+                <label className="NavBarText">KARRIERE</label>
                 {/* <label className="NavBarText"> PRIS</label> */}
                 <NavLink
                   exact

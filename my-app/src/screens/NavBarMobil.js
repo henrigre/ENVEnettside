@@ -39,8 +39,8 @@ function NavBarMobil() {
             <div className="NavBarMenuMobil">
               <label className="NavBarTextMobil">Om oss</label>
               <label className="NavBarTextMobil">Produkt</label>
-              <label className="NavBarTextMobil">Use cases</label>
-              <label className="NavBarTextMobil">Pris</label>
+              <label className="NavBarTextMobil">Karriere</label>
+              <label className="NavBarTextMobil">Kontakt</label>
             </div>
           </div>
         )}
