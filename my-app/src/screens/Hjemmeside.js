@@ -8,7 +8,8 @@ import { IoIosGlobe } from "react-icons/io";
 import Modal from "react-modal";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-
+    //kommentar 
+    <p> Test </p>
 function Hjemmeside() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [width, setWidth] = useState(window.innerWidth);
