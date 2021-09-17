@@ -67,26 +67,12 @@ function Hjemmeside() {
                 kjennetegnes ved utstrakt bruk av Microsoft 365 i utarbeidelsen av
                 budsjetter, regnskap og rapporter. Den utarbeidede dokumentasjonen 
                 inngår i informasjonsflyten mellom tilrettelegger og investeringsprosjektets
-                interessenter, og distribueres én-til-én; en tidkrevende og suboptimal prosess.</label>
+                interessenter, og distribueres én-til-én; en tidkrevende og suboptimal prosess.
+                </label>
               <label className="text">
-                ENVE samler den nødvendige funksjonaliteten som i dag er spredd
-                over et flertall av forskjellige systemer inn i én eneste
-                plattform som er skreddersydd for akkurat tilrettelegger sin
-                rolle. På denne måten oppnås en helhetlig løsning som gir
-                smidighet mellom de forskjellige rollene i et et
-                forvaltningsprosjekt, slik at tilrettelegger fristilles til
-                arbeid som faktisk skaper verdi. Ved å benytte ENVE vil man ikke
-                bare spare verdifulle ressurser - man vil også oppnå konsis- og
-                eksepsjonell datakvalitet som er med å løse en av de største
-                utfordringene innen ESG-trender i eiendomsinvesteringer. Vi ser
-                det som en langsiktig visjon å kunne bidra til miljøvennlige
-                eiendomsinvesteringer gjennom datakvalitet.
-                Tilretteleggingsarbeid for investeringer i næringseiendom er
-                sterkt preget av manuelle prosesser og flaskehalser i
-                informasjonsflyt, sammen med tunge lokale mappestrukturer.
-                Domenekunnskap står sterkt og knytter opp kunnskap og risiko til
-                den enkelte tilrettelegger. Summen av dagens virksomhet er en
-                ekstremt ressurskrevende papirmølle, uten noen gode løsninger.
+              ENVE er en helhetlig plattform som samler alle verktøy tilrettelegger har behov 
+              for i et oversiktlig dashboard, og distribuerer den utarbeidede dokumentasjonen 
+              til riktig interessent, til rett tid.
               </label>
             </button>
           </div>
