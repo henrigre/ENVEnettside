@@ -130,7 +130,7 @@ function Hjemmeside() {
                     className="firstLitenBox"
                     onClick={() => setModalIsOpen(true)}
                   >
-                    <label className="litenBoxText">KONTAKTSTRØMANALYSE</label>
+                    <label className="litenBoxText">KONTANTSTRØMANALYSE</label>
                   </button>
                   <button
                     className="firstLitenBox"
@@ -182,9 +182,9 @@ function Hjemmeside() {
                 tilgang til hva. Naviger enkelt mellom ulike prosjekt og opplev
                 verdien av å ha all eksisterende dokumentasjon knyttet til dine
                 investeringsprosjekt tilgjengeliggjort i det skybaserte
-                datarommet. Naviger enkelt mellom ulike prosjekter, ferdigstill
-                dokumentasjon og distribuer rapporter, regnskap og protokoller
-                til dine interessenter - enkelt, oversiktlig og sikkert.
+                datarommet. Ferdigstill dokumentasjon og distribuer rapporter, 
+                regnskap og protokoller til dine interessenter - enkelt, 
+                oversiktlig og sikkert.
               </label>
             </button>
 
@@ -203,10 +203,6 @@ function Hjemmeside() {
                   plattformen, og få møteinnkallinger og oppdateringer
                   tilgjengeliggjort i én samlet plattform.
                 </label>{" "}
-                <label className="text1">
-                  “Å holde seg løpende oppdatert på mine investeringer har aldri
-                  vært enklere”.
-                </label>
               </div>
             </button>
             <button className="førsteBoxInfoText">
@@ -236,7 +232,7 @@ function Hjemmeside() {
               <div className="bunnFlex">
                 <div className="bunnBox">
                   <label className="bunnText">+47 473 43 434</label>
-                  <label className="bunnText">konktakt@enve.no</label>
+                  <label className="bunnText">kontakt@enve.no</label>
                   <label className="bunnTextAdresse">
                     Sem Sælands vei 1, Trondheim
                   </label>
@@ -462,9 +458,9 @@ function Hjemmeside() {
               <div className="bunnFlex">
                 <div className="bunnBoxMobil">
                   <label className="bunnTextMobil">+47 473 43 434</label>
-                  <label className="bunnTextMobil">konktakt@enve.no</label>
+                  <label className="bunnTextMobil">kontakt@enve.no</label>
                   <label className="bunnTextAdresseMobil">
-                    Sem Sælands vei 1, Trondheim
+                    Sem Sælands vei 1, 7034 Trondheim
                   </label>
                 </div>
                 <div className="bunnBoxMobil1">
@@ -512,14 +508,7 @@ function Hjemmeside() {
                       LEIETAKEROVERSIKT
                     </label>
                     <label className="modalTextMobil">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Felis, pulvinar magna massa elementum, ut. Placerat
-                      volutpat viverra suspendisse nibh proin integer. Nisi
-                      blandit molestie cras dignissim. Mattis pulvinar
-                      scelerisque adipiscing dictum volutpat elit leo. Nunc
-                      dictumst at ut adipiscing morbi quam. Tortor non non
-                      pharetra.
-                    </label>
+                      Få totaloversikt over leietakerne tilknyttet den aktuelle eiendommen.                    </label>
                   </button>
                 </div>
                 <label
