@@ -57,7 +57,7 @@ function Hjemmeside() {
             <button className="boxInfoText">
               <label className="text">
                 <label className="textCenter">
-                  ENVE effektiviserer informasjonsflyten, og automatiserer
+                  ENVE (test) effektiviserer informasjonsflyten, og automatiserer
                   finansiell- og operasjonell rapportering av næringseiendom.
                 </label>
               </label>
