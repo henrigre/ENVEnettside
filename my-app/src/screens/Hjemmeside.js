@@ -8,8 +8,7 @@ import { IoIosGlobe } from "react-icons/io";
 import Modal from "react-modal";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-    //kommentar 
-    <p> Test </p>
+
 function Hjemmeside() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [width, setWidth] = useState(window.innerWidth);
@@ -57,21 +56,18 @@ function Hjemmeside() {
             <button className="boxInfoText">
               <label className="text">
                 <label className="textCenter">
-                  ENVE (test) effektiviserer informasjonsflyten, og automatiserer
+                  ENVE effektiviserer informasjonsflyten, og automatiserer
                   finansiell- og operasjonell rapportering av næringseiendom.
                 </label>
               </label>
               <label className="text">
                 <span className="paragraf"> </span>
-                Tilrettelegging av investering i næringseiendom er sterkt preget
-                av manuelle prosesser og flaskehalser. I en av verdens eldste og
-                mest veletablerte bransjer skjer det nå et avgjørende skifte mot
-                digitalisering av de oppgaver som inngår i en meget
-                ressurskrevende papirmølle. Store excel-ark, en-til-en
-                distribusjon over mail og tunge mappestrukturer lokalt lagret er
-                utdatert, og ENVE er det verktøyet som trengs for å håndtere
-                kapitalkrevende investeringer.
-              </label>
+                Tilrettelegging for investeringer i i næringseiendom er preget 
+                av manuelle prosesser og flaskehalser i flere ledd. Dagens arbeidsflyt 
+                kjennetegnes ved utstrakt bruk av Microsoft 365 i utarbeidelsen av
+                budsjetter, regnskap og rapporter. Den utarbeidede dokumentasjonen 
+                inngår i informasjonsflyten mellom tilrettelegger og investeringsprosjektets
+                interessenter, og distribueres én-til-én; en tidkrevende og suboptimal prosess.</label>
               <label className="text">
                 ENVE samler den nødvendige funksjonaliteten som i dag er spredd
                 over et flertall av forskjellige systemer inn i én eneste
